@@ -1,0 +1,20 @@
+{
+  "name": "retirebridge-public",
+  "interface": {
+    "displayName": "RetireBridge"
+  },
+  "plugins": [
+    {
+      "name": "retirebridge",
+      "source": {
+        "source": "local",
+        "path": "./plugins/retirebridge"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

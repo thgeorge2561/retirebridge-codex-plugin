@@ -1,0 +1,32 @@
+{
+  "name": "retirebridge",
+  "version": "0.1.0",
+  "description": "Guided retirement scenario intake and local model previews with a plan-file handoff to Rest of the Road.",
+  "author": {
+    "name": "Rest of the Road",
+    "url": "https://restoftheroad.com"
+  },
+  "homepage": "https://restoftheroad.com",
+  "repository": "https://github.com/thgeorge2561/retirebridge-codex-plugin",
+  "keywords": ["retirement", "planning", "simulator", "local-first"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "RetireBridge",
+    "shortDescription": "Retirement planning in Codex",
+    "longDescription": "Answer five core intake steps, run the same educational scenario models used by Rest of the Road, and export a local plan file for review and detailed exploration on the website. Models run on your machine; information typed in Codex follows Codex data handling. Requires Node.js 24 or newer.",
+    "developerName": "Rest of the Road",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://restoftheroad.com/",
+    "privacyPolicyURL": "https://restoftheroad.com/privacy",
+    "termsOfServiceURL": "https://restoftheroad.com/terms",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "defaultPrompt": [
+      "Help me build a retirement bridge scenario.",
+      "Open my RetireBridge plan and test a change.",
+      "Run my plan and help me review the assumptions."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
